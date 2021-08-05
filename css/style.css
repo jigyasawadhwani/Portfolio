@@ -1,0 +1,193 @@
+/**global**/
+body{
+    font-family: 'Roboto Slab', Helvetica, serif;
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+    color: #EEEEEE;
+}
+hr{
+    border: 0;
+    border-bottom: #6b6b6b 2px dashed;
+    width: 80%;
+}
+div{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    padding: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    vertical-align: top;
+}
+
+h2{
+    color: #5089C6;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+p{
+    padding: 0;
+    font-size: 18px;
+    margin: 0;
+    letter-spacing: .5;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+a{
+    text-decoration: none;
+    color: #6b6b6b;
+}
+
+/*header*/
+header{
+    padding-top: 20px;
+    min-height: 50px;
+}
+header .container{
+    margin: auto;
+}
+h1{
+    color: #5089C6;
+    margin: 0;
+}
+header a{
+    color: #6b6b6b;
+    font-size: 16px;
+}
+header a:hover{
+    color: #EEEEEE;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+#greeting{
+    float: left;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+/**intro**/
+
+#intro .introcontent{
+    text-align: center;
+}
+#intro .introcontent h2{
+    font-family: 'Parisienne', cursive;
+    font-size: 55px;
+}
+#intro img{
+    width: 200px;
+    height: 200px;
+    border: 0;
+    border-radius: 100%;
+    margin: auto;
+    display: block;
+}
+
+button{
+    margin-top: 20px;
+    border: 2px solid #5089C6;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #5089C6;
+    color: #EEEEEE;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid;
+    border-color: #5089C6;
+    color: #5089C6;
+}
+
+/**skills**/
+#skills .box{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+#skills img{
+    height: 150px;
+    width: 150px;
+}
+
+/**experience**/
+#experience .box{
+    padding-left: 50px;
+    padding-right: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+span{
+    font-size: 14px;
+}
+
+/**projects**/
+#projects .box{
+    padding: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#projects img{
+    height: 250px;
+    width: 450px;
+    border: 0;
+    border-radius: 10px;
+}
+#projects a:hover{
+    color: #EEEEEE;
+}
+
+/***art***/
+#otherskills .box{
+    display: inline-block;
+    margin: 20px 5px;
+}
+#otherskills img{
+    width: fit-content;
+    border: 0;
+    border-radius: 10px;
+}
+
+#otherskills img:hover{
+    zoom: 1.1;
+}
+#otherskills a:hover{
+    color: #EEEEEE;
+}
+/**contact**/
+#contact img{
+    width: 50px;
+    height: 50px;
+}
+#contact img:hover{
+    zoom: 1.1;
+}
+
+/**footer**/
+footer .container{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+footer p{
+    font-size: 12px;
+    text-decoration: none;
+    text-align: right;
+    margin: 20px 0 20px 0;
+}
