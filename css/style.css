@@ -195,6 +195,7 @@ span{
     font-size: 14px;
 }
 
+
 /*projects*/
 #projects .container{
     text-align: center;
@@ -227,6 +228,10 @@ span{
         width: auto;
         text-align: center;
     }
+    #projects .project{
+        margin: 0;
+        padding: 30px 10px;
+    }
 }
 
 /*other skills*/
@@ -256,15 +261,17 @@ span{
     border: 0;
     border-radius: 5px;
 }
-.col img:hover{
-    transform: scale(1.2);
+@media (min-width: 600px){
+    .col img:hover{
+        transform: scale(1.2);
+    }
 }
 @media screen and (max-width: 600px) {
     .col {
-      flex: 100%;
-      max-width: 100%;
+        flex: 50%;
+        max-width: 100%;
     }
-  }
+}
 
 /*contact*/
 #contact .container{
