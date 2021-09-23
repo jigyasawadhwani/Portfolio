@@ -106,6 +106,9 @@ button:hover{
     border-color: #5089C6;
     color: #5089C6;
 }
+.button2{
+    padding: 10px 30px;
+}
 @media (max-width:600px){
     #intro h2{
         font-size: 40px;
@@ -150,77 +153,61 @@ button:hover{
 }
 
 /*skills*/
-#skills ul{
+#languages-tools ul{
     margin: 0;
     padding: 0;
 }
-#skills .container{
+#languages-tools .container{
     text-align: center;
 }
-#skills li{
+#languages-tools li{
     list-style: none;
     display: inline-block;
     width: 150px;
     padding: 20px ;
     margin: 20px 20px 20px 20px;
     text-align: center;
-    background-color: #6b6b6b28;
-    border: 0px solid;
-    border-top: 4px #5089C6 solid;
+/*    background-color: #6b6b6b28;*/
+    border: 2px #5089C6 solid;
+
     border-radius: 5px;
 }
 @media (max-width: 600px){
-    #skills li{
+    #languages-tools li{
         display: block;
         margin: 15px auto 15px auto;
     }
 }
 
-/*experience*/
-
-table{
-    margin: auto;
-    border-collapse: separate;
-    border-spacing: 0 20px;
-    vertical-align: middle;
-}
-
-#experience .cell{
-    border-left: 3px solid #5089C6;
-    border-radius: 5px;
-    padding: 20px;
-    background-color: #6b6b6b28;
-}
-span{
-    font-size: 14px;
-}
-
-
 /*projects*/
 #projects .container{
     text-align: center;
 }
-#projects .box{
-    display: inline-block;
-    width: auto;
-    width: 40%;
+.project .box{
     vertical-align: middle;
-    text-align: left;
+    text-align: center;
+    background-color: #6b6b6b28;
+    margin: 0.5rem;
+    border-radius: 10px;
+    border: #5089C6 solid 2px;
+    width: 350px;
+}
+.project-info{
+    padding: 0.5rem;
+    font-size: 0.8rem;
 }
 #projects img{
-    width: 450px;
-    border: 0;
-    border-radius: 5px;
+    width: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     max-width: 100%;
     height: auto;
 }
 .project{
-    background-color: #6b6b6b28;
-    padding: 30px 20px;
-    margin: 0 40px 0 40px;
-    border: 0;
-    border-top: #5089C6 3px solid;
-    border-radius: 5px;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
 }
 @media(max-width:1023px){
     #projects .box{
@@ -233,7 +220,6 @@ span{
         padding: 30px 10px;
     }
 }
-
 /*other skills*/
 #otherskills .container{
     text-align: center;
@@ -272,18 +258,67 @@ span{
         max-width: 100%;
     }
 }
+/*skills*/
+#skills .container{
+    width: 80%;
+}
+#skills .box{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+#skills .skill{
+    width: 25%;
+    background-color: #5089C6;
+    margin: 0.6rem;
+    padding: 0.4rem;
+    border-radius: 10px;
+    height: 80px;
+    max-height: 100%;
+}
+
+/*experience*/
+#experience .container{
+    width: 60%;
+}
+#experience .box{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+.company{
+    flex: 25%;
+}
+
+#experience .work{
+    flex: 50%; 
+}
+.work li{
+    font-size: 1rem;
+}
+.company span{
+    font-size: 14px;
+}
+.work span{
+    background-color: #5089C6;
+    padding: 0 0.3rem;
+    border-radius: 4px;
+}
+.work a{
+    margin-top: 1rem;
+    text-decoration: underline;
+}
 
 /*contact*/
 #contact .container{
     text-align: center;
 }
-#contact img{
-    width: 50px;
-    height: 50px;
-    max-width: 100%;
-    height: auto;
+#contact i{
+    color: #5089C6;
+
 }
-#contact img:hover{
+#contact i:hover{
     transform: scale(1.2);
 }
 
