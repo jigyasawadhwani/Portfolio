@@ -174,8 +174,8 @@ button:hover{
 }
 @media (max-width: 600px){
     #languages-tools li{
-        display: block;
-        margin: 15px auto 15px auto;
+        width: fit-content;
+        margin: 0.8rem auto 0.8 auto;
     }
 }
 
@@ -209,15 +209,20 @@ button:hover{
     margin: auto;
     justify-content: center;
 }
-@media(max-width:1023px){
+@media(max-width:600px){
     #projects .box{
         display: block;
         width: auto;
         text-align: center;
+        margin-top: 0.6rem;
+        margin-bottom: 0.6rem;
     }
     #projects .project{
         margin: 0;
         padding: 30px 10px;
+        display: block;
+        margin: auto;
+        padding: 0;
     }
 }
 /*other skills*/
@@ -269,15 +274,27 @@ button:hover{
     text-align: center;
 }
 #skills .skill{
-    width: 25%;
     background-color: #5089C6;
     margin: 0.6rem;
     padding: 0.4rem;
     border-radius: 10px;
-    height: 80px;
+    height: auto;
     max-height: 100%;
 }
-
+@media(max-width:850px){
+    #skills .box{
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    #skills .skill{
+        display: block;
+        width: fit-content;
+        margin: auto;
+        margin-top: 1rem;
+        padding: 0.2rem 0.6rem;
+    }
+}
 /*experience*/
 #experience .container{
     width: 60%;
@@ -296,6 +313,7 @@ button:hover{
 }
 .work li{
     font-size: 1rem;
+    line-height: 1.6;
 }
 .company span{
     font-size: 14px;
@@ -308,6 +326,11 @@ button:hover{
 .work a{
     margin-top: 1rem;
     text-decoration: underline;
+}
+@media (max-width:700px){
+    #experience .box{
+        display: block;
+    }
 }
 
 /*contact*/
