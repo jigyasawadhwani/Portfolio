@@ -1,0 +1,25 @@
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #000000;
+    color: #EEEEEE;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    vertical-align: top;
+}
+a{
+    color: #EEEEEE;
+}
+a:hover{
+    color: #6b6b6b;
+}
+li{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
